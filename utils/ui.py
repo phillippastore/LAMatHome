@@ -1,4 +1,8 @@
-import tkinter as tk
+# Comment out or remove tkinter imports
+# import tkinter as tk
+
+# Replace tkinter code with command-line prompts
+input("Press Enter to continue...")
 from tkinter import ttk, messagebox
 
 def create_env_file():
