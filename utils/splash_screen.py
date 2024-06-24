@@ -106,7 +106,7 @@ if bootup_text == "Now in color!":
 else:
     colored_splash = apply_gradient(splash_text, start_color, end_color)
 
-splash_text_goodbye = """
+splash_text_goodbye = r"""
 LAMatHome is exiting... Goodbye!
    __    ___    __  ___        __    __ __                    |    (\  /)
   / /   / _ |  /  |/  / ___ _ / /_  / // / ___   __ _  ___    |
