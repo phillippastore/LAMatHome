@@ -29,13 +29,13 @@ bootup_text_choices = [
 bootup_text = random.choice(bootup_text_choices)
 
 # Define the splash text
-splash_text = f"""
+splash_text = r"""
 {bootup_text}
    __    ___    __  ___        __    __ __                    |    (\  /)
   / /   / _ |  /  |/  / ___ _ / /_  / // / ___   __ _  ___    |
  / /__ / __ | / /|_/ / / _ `// __/ / _  / / _ \ /  ' \/ -_)   |   (◠ + ◠ )
 /____//_/ |_|/_/  /_/  \_,_/ \__/ /_//_/  \___//_/_/_/\__/    |      ►◄
-r"""
+"""
 
 # Function to apply a gradient. thank you chatgpt.
 def apply_gradient(text, start_color, end_color):
